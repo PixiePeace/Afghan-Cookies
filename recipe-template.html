@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Template</title>
+    <link rel="stylesheet" href="recipe-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#recipe" class="jump-to-recipe">Jump to Recipe</a>
+    <div class="container">
+        <main class="recipe-content">
+            <section class="intro">
+                <div class="recipe-header">
+                    <img src="images/Header.webp" alt="Afghan Cookies header image" class="header-image">
+                    <div class="header-content">
+                        <h1 class="recipe-title">Afghan Cookies</h1>
+                    </div>
+                </div>
+                <p class="recipe-subtitle">Personal Connection</p>
+                <p class="recipe-description">I was born in New Zealand, and when we lived there we would often make afghans cookies as a special treat. This recipe has been passed down in my family for generations, from my great grandmother. It came from a cookbook called: Edmonds Cookery Book, which is the second best selling book in New Zealand. Almost everyone who lived there had a copy of it at the time, and in my family it was passed down for generations until now we have this cookbook and the recipe that we make now is the same one that my great grandmother made many years ago.
+                </p>
+                
+                <p class="recipe-subtitle">History</p>
+                <p class="recipe-description">No one really knows the history of afghan cookies but one of the theories that I've been seeing a lot is that they were baked for soldiers during the afghan war.</p>
+                
+                <p class="recipe-subtitle">Instructions</p>
+                <p class="recipe-description">In a medium sized bowl, cream the butter and sugar until light and fluffy.</p>
+                
+                <img src="images/1.webp" alt="Mixing ingredients" class="recipe-photo">
+                
+                <p class="recipe-description">Next add the flour and cocoa. Then stir into a creamed mixture.</p>
+                
+                <img src="images/2.webp" alt="Family baking together" class="recipe-photo">
+
+                <p class="recipe-description">Next mix the flour and cocoa.</p>
+                
+                <img src="images/3.webp" alt="Family baking together" class="recipe-photo">
+                
+                <p class="recipe-description">After that add and carefully mix in the cornflakes.</p>
+                
+                <img src="images/4.webp" alt="Original recipe card" class="recipe-photo">
+                
+                <p class="recipe-description">Next you're going to grease an oven tray and add roughly tablespoon sized balls of the mixture onto the tray.</p>
+                
+                <img src="images/5.webp" alt="Cookie texture close-up" class="recipe-photo">
+                
+                <p class="recipe-description">Then bake in the oven for 15 minutes at 180 degrees celsius.</p>
+                
+                <img src="images/6.webp" alt="Cookies cooling on rack" class="recipe-photo">
+                
+                <p class="recipe-description">In a separate bowl you’re going to add the chocolate, butter and cream and microwave it until melted.</p>
+                
+                <img src="images/7.webp" alt="Adding chocolate topping" class="recipe-photo">
+                
+                <p class="recipe-description">After they have cooled, add the chocolate sauce on top of each cookie and add a walnut for decoration if you want.</p>
+                
+                <img src="images/8.webp" alt="Adding walnut decoration" class="recipe-photo">
+                
+                <p class="recipe-description">Then the cookies are complete. I hope you enjoy!</p>
+                
+                <img src="images/Hope.webp" alt="Finished cookies on plate" class="recipe-photo">
+                
+               
+            </section>
+
+            <section id="recipe" class="recipe-details">
+                <div class="ingredients">
+                    <p class="recipe-subtitle">Ingredients</p>
+                    <div class="multiplier">
+                        <span>Serving size:</span>
+                        <div class="multiplier-container">
+                            <button class="multiplier-btn active" data-multiplier="1" aria-label="Adjust servings by 1x">1x</button>
+                            <button class="multiplier-btn" data-multiplier="2" aria-label="Adjust servings by 2x">2x</button>
+                            <button class="multiplier-btn" data-multiplier="3" aria-label="Adjust servings by 3x">3x</button>
+                        </div>
+                    </div>
+                    <ul class="ingredients-list" data-original-servings="1">
+                        <li class="ingredients-header">Cookies:</li>
+                        <li data-amount="1.5">1 ½ cups butter, softened</li>
+                        <li data-amount="0.5">½ cup sugar</li>
+                        <li data-amount="1.25">1 ¼ cups standard plain flour</li>
+                        <li data-amount="0.25">¼ cup cocoa</li>
+                        <li data-amount="2">2 cups cornflakes</li>
+                        <li>walnuts (optional)</li>
+                        
+                        <li class="ingredients-header">Chocolate Icing:</li>
+                        <li data-amount="1.5">1 ½ cups chocolate</li>
+                        <li data-amount="0.25">¼ cup butter</li>
+                        <li data-amount="0.5">½ cup cream</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <aside class="about-me">
+            <h2>About Me</h2>
+            <img src="images/Me.jpg" alt="Author's photo" class="profile-photo">
+            <p class="author-bio">Hi, I’m Asa, I live in Lower Canard with my mom, dad, brother, sister, cat and two dogs, and have always enjoyed cooking and drawing. I hope you enjoy this recipe.</p>
+        </aside>
+    </div>
+
+    <script src="recipe-script.js"></script>
+</body>
+</html>
